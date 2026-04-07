@@ -1,0 +1,14 @@
+a:visited{
+    color: red;
+    font-size: xx-large;
+}
+
+a:link{
+    color: green;
+    background-color: yellow;
+}
+a:hover{
+    color: blue;
+    background-color: pink;
+}
+

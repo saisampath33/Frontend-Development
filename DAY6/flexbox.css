@@ -1,0 +1,29 @@
+.container{
+    border: 2px solid red;
+    height:90vh;
+    /* converting display to flex means it changes to inline and can apply properties */
+    display: flex; 
+    /* This works in horizontal */
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    /* gap: 30px; */
+    /* This tells if so many divs are there it arranges them in same width and height it will not minimize it */
+    flex-wrap: wrap;
+    /* This works in vertical direction */
+    align-items: center; 
+}
+.box{
+    height: 70px;
+    width: 100px;
+    border: 2px solid black;
+}
+.box1{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 2;
+}

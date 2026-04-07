@@ -1,0 +1,12 @@
+span{
+    display: block;
+    height: 100px;
+    width: 300px;
+    border: 2px solid blue;
+}
+
+/* we cannot apply height and width coz we changed to inline */
+div{
+    display: inline;
+    border: 2px solid red;
+}

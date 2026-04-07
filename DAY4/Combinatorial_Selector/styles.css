@@ -1,0 +1,17 @@
+#descendent h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#child > h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#adjacent + p{
+    background-color: rgb(219, 219, 247);
+}
+
+#general ~ p{
+    background-color: rgb(204, 253, 253);
+}

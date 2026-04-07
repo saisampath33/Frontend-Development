@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Absolute Units -->
+    <div id="absolute">Absolute Units (Fixed Size)</div>
+    <br /><br />
+    <hr />
+    <!-- Relative Units -->
+    <div id="parent">
+      <div id="child">Relative Units here...</div>
+    </div>
+
+    <hr />
+
+    <div id="children">Body Example (For parent as body)</div>
+    <hr />
+    <div id="em">
+      <h1>EM units depends on parent font size</h1>
+    </div>
+
+    <h1 id="head">Checking...</h1>
+
+    <!-- Problem with em(Compounding) -->
+
+    <br/>
+    <hr/>
+    <h2><u>Compounding </u></h2>
+    <div id="big">
+      <div id="small">
+        I am Child
+        <div id="smallest">I am Grand Child</div>
+      </div>
+    </div>
+
+    <hr>
+    <h2 id="rem">REM (5rem)</h2>
+
+    <h2 id="a">Checking....(5*16 = 80px)</h2>
+    <hr>
+
+    <div id="vh">
+      About vh and vw(Change based on the screen size)
+    </div>
+  </body>
+</html>

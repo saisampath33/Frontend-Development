@@ -1,0 +1,42 @@
+#dash{
+    border: 1px dashed black;
+    background-color: yellow;
+}
+#solid{
+    border: 4px solid black;
+    background-color: olive;
+}
+#pad{
+    border: 4px solid red;
+    padding: 15px;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    gap: 20px;           
+}
+
+
+img {
+    width: 220px;
+    height: 220px;
+}
+
+#one{
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+#two{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#three{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: bisque;
+}

@@ -1,0 +1,52 @@
+dt{
+    color: red;
+}
+dd{
+    color: blue;
+    background-color: yellow;
+}
+
+legend{
+    color: green;
+    background-color: lightgray;
+
+}
+fieldset{
+    border: 2px solid black;
+    width: 300px;
+    background-color: rgb(202, 235, 246);
+    margin: 0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button{
+    background-color: rgb(230, 173, 229);
+    color: black;
+    padding: 10px 10px;
+    font-size: 12px;
+    /* margin: 10px 90px; */
+    margin: 0px auto;
+}
+
+#head{
+    color: yellowgreen;
+}
+
+.subheading{
+    color: purple;
+}
+
+h2, h3,h4{
+    text-align: center;
+}
+
+#head,.subheading{
+    background-color: bisque;
+}
+
+/* Universal selector */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

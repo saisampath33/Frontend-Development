@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="a">Name:</label>
+        <input id="a" type="text" placeholder="Enter your name">
+        <br><br>
+        <label for="b">Email:</label>
+        <input id="b" type="email" placeholder="Enter your email">
+        <br><br>
+        <label for="c">Password:</label>
+        <input id="c" type="password" placeholder="Enter your password">
+        <br><br>
+        <label for="d">Age:</label>
+        <input id="d" type="number" placeholder="Enter your age">
+        <br><br>
+        <label for="e">Date:</label>
+        <input id="e" type="date">
+        <br><br>
+        <label for="z">Time:</label>
+        <input id="z" type="time">
+        <br><br>
+        <label for="f">Upload Resume:</label>
+        <input id="f" type="file">
+        <br><br>
+        <label for="g">Experience:</label>
+        <input type="range">
+        <br><br>
+        <label for="h">Gender:</label>
+        <input type="radio" id="h" name="gender">
+        <label for="h" >
+            Male
+        </label>
+        <input type="radio" id="i" name="gender">
+        <label for="i">
+            Female
+        </label>
+        <br><br>
+        <label for="j">Hobbies:</label>
+        <input type="checkbox" id="j" name="skills">
+        <label for="j">Playing</label>
+        <input type="checkbox" id="k" name="skills">
+        <label for="k">Reading books</label>
+        <input type="checkbox" id="l" name="skills">
+        <label for="l">Swimming</label>
+        <br><br>
+        <label for="m">Skills:</label>
+        <select id="m" name="skills">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+        <br><br>
+        <label for="n">City:    </label>
+        <input type="text" list="City">
+        <datalist id="City">
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="India">India</option>
+        </datalist>
+        <br><br>
+        <label for="o">Referral Code: </label>
+        <input type="text" id="o" value="" disabled>
+        <br><br>
+        <input type="hidden" name="referral_code" id="referral_code" value="">
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

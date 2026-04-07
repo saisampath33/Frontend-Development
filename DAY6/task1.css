@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CONTAINER */
+.container{
+    width: 900px;
+    height: 550px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width: 260px;
+    border-radius: 12px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: linear-gradient(180deg, #5f5fff, #4834d4);
+    color: white;
+}
+
+/* STEP */
+.step{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* CIRCLE */
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* ACTIVE */
+.step.active .circle{
+    background: #bcd6ff;
+    color: black;
+    border: none;
+}
+
+/* TEXT */
+.text p{
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.text h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* MAIN CONTENT */
+.main{
+    flex: 1;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* TITLE */
+.main h1{
+    color: #02295a;
+    margin-bottom: 10px;
+}
+
+.main .subtitle{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #02295a;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus{
+    border-color: #4834d4;
+}
+
+.btn{
+    align-self: flex-end;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #02295a;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #04408c;
+}
