@@ -1,0 +1,21 @@
+.empty{
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.header{
+    background-color: green;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 23px;
+    position: sticky;
+    top: 0;
+}
+.content{
+    height: 1500px;
+    border: 2px solid black;
+    background-color: gray;
+}

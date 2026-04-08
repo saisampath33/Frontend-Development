@@ -1,0 +1,36 @@
+#static{
+    height: 100px;
+    width: 250px;
+    background-color: lightblue;
+    color: black;
+    /* here top b lef and ri not work */
+    top: 70px; 
+    left: 100px;
+}
+
+#relative{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    top: 50px;
+    left: 150px;
+}
+
+#parent{
+    height: 100px;
+    width: 200px;
+    background-color: beige;
+    margin-top: 70px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+#child{
+    position: absolute;
+    top: 48px;
+    left: 10px;
+    background-color: lightskyblue;
+    padding: 7px;
+}

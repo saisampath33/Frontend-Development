@@ -1,0 +1,34 @@
+#s{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    z-index: 3;
+}
+
+#m{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    z-index: 1;
+}
+
+#p{
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    z-index: 3;
+}
+
+/* higher z index gives higher priority to the element and it will be on top of the elements with lower z index. In this case, the red box with z-index 3 will be on top, followed by the blue box with z-index 2, and the green box with z-index 1 will be at the bottom. */
